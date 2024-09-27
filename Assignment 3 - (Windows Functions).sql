@@ -1,4 +1,3 @@
-use mavenmovies;
 -- Question 1 Rank the customers based on the total amount they've spent on rentals.
 -- Answer 1.
 SELECT c.customer_id, CONCAT(c.first_name, ' ', c.last_name) AS customer_name, 
